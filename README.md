@@ -2,7 +2,7 @@
 
 > **Status: not built yet.** This README describes the planned tool. Nothing here works yet.
 
-Replays a run recorded by [Better Run Logs](../better-run-logs) inside the real game. It starts the
+Replays a run recorded by [Better Run Logs](https://github.com/cmyers009/better-run-logs) inside the real game. It starts the
 same seed and character and applies every recorded decision in order. After each step it checks
 that the game's RNG streams and state match the log.
 
@@ -16,7 +16,7 @@ Use it to:
 ## Install
 
 1. Install Slay the Spire, **ModTheSpire** and **BaseMod** as described in the
-   [Better Run Logs install steps](../better-run-logs#install).
+   [Better Run Logs install steps](https://github.com/cmyers009/better-run-logs#install).
 2. Download `better-run-logs-replayer.jar` and put it in the game's `mods` folder.
 3. Launch with **Play With Mods** and tick **BaseMod** and **Better Run Logs Replayer**.
 
@@ -36,7 +36,7 @@ For example, on Windows:
 C:\Program Files (x86)\Steam\steamapps\common\SlayTheSpire\better-run-logs\IRONCLAD\1790807044.jsonl.gz
 ```
 
-The [Better Run Logs README](../better-run-logs#finding-your-game-folder) lists the game folder
+The [Better Run Logs README](https://github.com/cmyers009/better-run-logs#finding-your-game-folder) lists the game folder
 for Windows, Linux (native, Flatpak, Snap), Steam Deck and macOS. The quickest route on any system
 is Steam → right-click Slay the Spire → **Manage** → **Browse local files**.
 
